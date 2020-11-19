@@ -1,0 +1,23 @@
+package com.example.kmemobileapp;
+
+public class Entity2D extends EntityGame {
+    public float mLength;
+    public float mWidth;
+
+    Entity2D() {}
+
+    public void draw(float[] mvpMatrix){}
+
+    public void setViewMatrix(float[] inViewMatrix) {
+    }
+
+    public void setProjectionMatrix(float[] inMatrix) {
+    }
+
+    public float[] getModelMatrix() {
+        return mModelMatrix;
+    }
+
+    public float getLength() { return mLength; }
+    public float getWidth() { return mWidth; }
+}
